@@ -62,6 +62,18 @@ function Register() {
       }
     } catch (error) {
       console.error("Registration error:", error);
+      toast.error(
+        error.response?.data?.msg,
+        {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          theme: "dark",
+        }
+      );
     }
   };
 
