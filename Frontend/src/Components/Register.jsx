@@ -135,7 +135,7 @@ function Register() {
                       onChange={handleChange}
                       placeholder="Enter your password"
                       required
-                      minLength={6}
+                      minLength={4}
                     />
                     <div
                       className="register-input-icon register-password-toggle"
@@ -162,7 +162,7 @@ function Register() {
                       onChange={handleChange}
                       placeholder="Confirm your password"
                       required
-                      minLength={6}
+                      minLength={4}
                     />
                     <div
                       className="register-input-icon register-password-toggle"
