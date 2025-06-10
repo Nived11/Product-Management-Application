@@ -36,10 +36,14 @@ RUN THE PROJECT
 ----------------
 
 cd backend
+
 npm install
+
 node server.js
 
-cd frontend
+cd Frontend
+
 npm install
+
 npm run dev
 
